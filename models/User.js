@@ -7,7 +7,7 @@ const Users = mongoose.model(
 	new Schema({
 		_id: {
 			type: String,
-			default: crypto.randomUUID()
+			default: crypto.randomUUID
 		},
 		nome: {
 			type: String,
