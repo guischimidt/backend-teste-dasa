@@ -23,7 +23,7 @@ const checkToken = (req, res, next) => {
 		next();
 	}
 	catch (err) {
-		return res.status(400).json({ message: 'Token inválido' });
+		return res.status(400).json({ mensagem: 'Token inválido' });
 	}
 };
 

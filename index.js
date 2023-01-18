@@ -24,7 +24,7 @@ app.use('/', UserRoutes);
 
 app.use((req, res) => {
 	res.status(404).json({
-		messagem: 'Endpoint inexistente, cheque a documentação de nossa API'
+		mensagem: 'Endpoint inexistente, cheque a documentação de nossa API'
 	});
 });
 
