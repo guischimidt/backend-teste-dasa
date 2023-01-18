@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon localhost index.js 3001"
+    "dev": "nodemon localhost index.js 3001",
+    "start": "node ./index.js"
   },
   "author": "Guilherme Schimidt <guigoschimidt@gmail.com> (https://github.com/guischimidt)",
   "license": "MIT",
